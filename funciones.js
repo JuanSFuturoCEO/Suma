@@ -10,4 +10,4 @@
   var suma= num1 + num2 ;
 
 
-  document.getElementById("resultado").textContent= suma;
+  ("resultado").textContent= "el resultado es"+ suma;
