@@ -4,20 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>suma</title>
+    <script src="funciones.js"></script>
 </head>
 <body>
-    <h1>suma</h1>
+    <h1>Suma</h1>
    <article class="sumaG">
      <form>
          <label for="primer-numero">Ingrese un numero:</label>
          <input type="text" id="primer-numero">
          <br>
          <br>
-         <label for="Segundo-numero">Ingrese otro numero:</label>
-         <input type="text" id="Segundo-numero">
+         <label for="segundo-numero">Ingrese otro numero:</label>
+         <input type="text" id="segundo-numero">
          <br>
          <br>
-         <button class="suma" onclick="calcularSuma()" >Resultado</button>
+         <button type="button" onclick="calcularSuma()" >Resultado</button>
+
+         <div id="resultado"></div>
         
       </form>
   </article>
